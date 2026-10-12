@@ -1,0 +1,29 @@
+# --- macOS / OS ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+.obsidian/
+*.iml
+
+# --- Python (research tooling) ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+pip-log.txt
+
+# --- Logs / scratch ---
+*.log
+/tmp/
+
+# --- Build artifacts (if any local experiments) ---
+*.o
+*.a
+build/
+dist/
